@@ -1,7 +1,7 @@
 const getData = (req, res) => {
     const { slack_name, track } = req.query;  
     const currentDay = new Date().toLocaleDateString('en-US', { weekday: 'long' });
-    const utcTime = new Date().toISOString();
+    const utcTime = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
     const githubFileUrl = "https://github.com/fredrickray/Zuri/blob/main/stage%201/app.js";
     const githubRepoUrl = "https://github.com/fredrickray/Zuri";
   
