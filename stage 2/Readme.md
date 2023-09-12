@@ -23,4 +23,4 @@ This documentation outlines the usage, endpoints, and setup instructions for the
 
 ## UML DIAGRAM
 
-![UML Diagram]("./../UML.png")
+![UML Diagram](./UML.png)
